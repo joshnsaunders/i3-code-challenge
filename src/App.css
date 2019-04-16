@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.holdEmWrapper {
+}
+.holdEmHeader {
+  font-size: 5em;
+}
+
+.formWrapper {
+  height: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+.bodyWrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.toggleButton {
+  margin-top: 75px;
+  font-size: 2.5em;
+  font-family: sans-serif;
+}
+
+.toggleButton:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: white;
+}
+
+.resultWrapper {
+  display: grid;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.inputs {
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+input {
+  margin-bottom: 8px;
+}
