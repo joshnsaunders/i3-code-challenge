@@ -33,14 +33,14 @@ class HoldEmRefactored extends Component {
     let suits = getCardSuits(cards);
 
     if (cards.length === 5) {
-      showHoldEmHand(this.checkPokerHandWithSwitchCase(values, suits));
+      showHoldEmHand(this.checkPokerHand(values, suits));
       return;
     }
     showHoldEmHand("You should play with five cards");
     return;
   };
 
-  checkPokerHandWithSwitchCase(values, suits) {
+  checkPokerHand(values, suits) {
     let handValue;
     switch (getNonUniqueValues(values).length) {
       case 5:
